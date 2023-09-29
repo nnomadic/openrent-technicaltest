@@ -16,7 +16,7 @@ import styles from "./carousel.module.css";
 export default function Carousel() {
   return (
     <Swiper
-      slidesPerView={3}
+      slidesPerView={3.25}
       freeMode={true}
       pagination={{
         clickable: true,
