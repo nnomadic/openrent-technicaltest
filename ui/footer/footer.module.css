@@ -1,0 +1,12 @@
+.footer {
+  width: 100vw;
+
+  height: 350px;
+
+  padding: 2rem 6rem;
+
+  background: var(--color-blue);
+  opacity: 0.4;
+
+  border-radius: 25px 0 0 0;
+}

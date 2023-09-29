@@ -1,0 +1,58 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+
+  gap: 55px;
+
+  padding: 3rem 0;
+
+  position: relative;
+}
+
+.split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 65%;
+}
+
+.ctaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+
+  z-index: 1;
+}
+
+.greenCta,
+.blueCta {
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.greenCta {
+  background-color: var(--color-green);
+}
+
+.blueCta {
+  background-color: var(--color-blue);
+}
+
+.bgTitle {
+  font-size: 200px;
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  opacity: 0.1;
+
+  z-index: 0;
+}

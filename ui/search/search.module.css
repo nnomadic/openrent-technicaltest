@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.input {
+  width: 450px;
+  height: 45px;
+
+  border-radius: 90px;
+  border: 1.5px solid var(--color-blue);
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
