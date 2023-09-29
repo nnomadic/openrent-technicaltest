@@ -11,7 +11,9 @@
 
   z-index: 999;
 
-  height: 110px;
+  height: 90px;
+
+  backdrop-filter: blur(5px);
 }
 
 .logo {

@@ -4,7 +4,7 @@
   justify-content: center;
   flex-flow: column;
 
-  gap: 55px;
+  gap: 75px;
 
   padding: 3rem 0;
 
@@ -34,6 +34,7 @@
   padding: 10px 20px;
   border-radius: 30px;
   cursor: pointer;
+  color: var(--color-white);
 }
 
 .greenCta {

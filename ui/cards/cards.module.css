@@ -27,6 +27,15 @@
   border-radius: 15px;
 }
 
+.price h5 {
+  color: var(--color-eggshell);
+}
+
+.content h5,
+.content p {
+  color: var(--color-white);
+}
+
 .content {
   position: absolute;
 
